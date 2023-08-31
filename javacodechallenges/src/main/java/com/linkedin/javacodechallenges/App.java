@@ -1,11 +1,14 @@
 package com.linkedin.javacodechallenges;
 
 import java.util.Scanner;
+import java.io.File;
 
 public class App 
 {
-    public static void redactTextFile(String fileName,
-                                      String[] redactedWordsArray) {
+    public static void redactTextFile(String fileName, String[] redactedWordsArray) {
+        Scanner scanner = new Scanner(fileName);
+
+
 
     }
 
