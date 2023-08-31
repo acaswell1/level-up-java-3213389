@@ -1,14 +1,18 @@
 package com.linkedin.javacodechallenges;
 
 import java.util.Scanner;
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 
-public class App 
-{
+public class App {
     public static void redactTextFile(String fileName, String[] redactedWordsArray) {
-        Scanner scanner = new Scanner(fileName);
 
+        try (BufferedReader reader = new BufferedReader(new FileReader("./MacBeth.txt"))) {
 
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
     }
 
